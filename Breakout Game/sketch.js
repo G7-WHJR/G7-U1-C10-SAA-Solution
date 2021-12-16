@@ -36,6 +36,7 @@ function setup() {
     }
   }
 
+  //SAA1:
   //Row 1 : y : 75
   createBrickRow(75,"brown");
   //Row 2 : y : 100
@@ -48,6 +49,8 @@ function draw() {
   background("honeydew");
 
   paddle.x = mouseX;
+
+  //SAA2:
   paddle.y = mouseY;
 
   if (mouseIsPressed) {
